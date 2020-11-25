@@ -1,0 +1,4 @@
+include ':customToasterLibrary-debug'
+include ':CustomToasterLibrary'
+include ':app'
+rootProject.name = "CustomToast"
