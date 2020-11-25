@@ -1,5 +1,5 @@
 <h1>Custom Toast</h1>
-<p>Custom Toast is library to create custom toast in android studio by writing less code. </p>
+<p>You can customize toast with Custom Toast library in android studio by writing less code. </p>
 <h2>Getting Started</h2>
 <p>Add it in your root build.gradle at the end of repositories:</p>
 
