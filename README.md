@@ -1,7 +1,7 @@
 <h1>Custom Toast</h1>
 <p>Custom Toast is library to create custom toast in android studio by writing less code. </p>
-<h1>Getting Started</h1>
-<h2>Add it in your root build.gradle at the end of repositories:</h2>
+<h2>Getting Started</h2>
+<p>Add it in your root build.gradle at the end of repositories:</p>
 
 
 ```
@@ -12,7 +12,7 @@ allprojects {
 	}
 }
 ```
-<h2>Add the dependency</h2>
+<p>Add the dependency</p>
 
 
 ```
