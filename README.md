@@ -18,7 +18,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.SabaZafar22:CustomToast:1.0'
+    implementation 'com.github.SabaZafar22:CustomToast:1.0.1'
 }
 ```
 
