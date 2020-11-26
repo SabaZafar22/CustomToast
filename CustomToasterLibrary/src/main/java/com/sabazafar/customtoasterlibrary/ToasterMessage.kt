@@ -1,4 +1,4 @@
-package com.example.customtoasterlibrary
+package com.sabazafar.customtoasterlibrary
 
 import android.content.Context
 import android.graphics.Color
@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import com.example.customtoasterlibrary.R
 
 
 class ToasterMessage(private var context: Context,
@@ -25,8 +26,8 @@ class ToasterMessage(private var context: Context,
         private var context: Context? = null
         private var message: String = ""
         fun with(context: Context, message: String): ToasterMessage {
-            this.context = context
-            this.message = message
+            Companion.context = context
+            Companion.message = message
             return ToasterMessage(context, message)
         }
     }

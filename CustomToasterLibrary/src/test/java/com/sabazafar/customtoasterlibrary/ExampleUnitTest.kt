@@ -1,4 +1,4 @@
-package com.example.customtoast
+package com.sabazafar.customtoasterlibrary
 
 import org.junit.Test
 

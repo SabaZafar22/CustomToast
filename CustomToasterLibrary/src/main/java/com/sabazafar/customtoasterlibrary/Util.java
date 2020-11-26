@@ -1,4 +1,4 @@
-package com.example.customtoasterlibrary;
+package com.sabazafar.customtoasterlibrary;
 
 import android.content.Context;
 import android.graphics.PorterDuff;

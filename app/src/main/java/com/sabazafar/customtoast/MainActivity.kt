@@ -1,4 +1,4 @@
-package com.example.customtoast
+package com.sabazafar.customtoast
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,8 @@ import android.view.Gravity
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.example.customtoasterlibrary.ToasterMessage
+import com.example.customtoast.R
+import com.sabazafar.customtoasterlibrary.ToasterMessage
 
 
 class MainActivity : AppCompatActivity() {
@@ -43,7 +44,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        ToasterMessage.with(this, "Hello, I am Toast")
-                .build()
+        ToasterMessage
+            .with(this, "Hello, I am Toast")
+            .setBackgroundColor(R.color.purple_500)
+            .build()
     }
 }
